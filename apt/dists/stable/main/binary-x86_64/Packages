@@ -1,0 +1,52 @@
+Package: agy-quota
+Version: 1.2.0
+Architecture: all
+Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
+Depends: python3 (>= 3.8), python3-cryptography, python3-rich
+Filename: pool/main/agy-quota_1.2.0_all.deb
+Size: 14952
+MD5sum: 176da873dd86b7e11353a0d0e32cdc25
+SHA1: 3d72f9a30ff7f46a15871e25b3b2eb29eaf85321
+SHA256: 54a2656f7590b2f2eb6281e42df752f3b43cb38d82ab4f7af3f7ad5fece1f9db
+Section: utils
+Priority: optional
+Description: Antigravity Multi-Account Token, Quota & Tier Bulk Checker
+ Lightweight, ultra-fast CLI tool to check quotas, token balances, and tier
+ statuses across multiple Google Antigravity accounts.
+ Includes alias: agy-tokens.
+
+Package: markora
+Version: 1.0.0
+Architecture: all
+Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
+Depends: python3 (>= 3.8)
+Recommends: python3-gkeepapi, python3-playwright
+Filename: pool/main/markora_1.0.0_all.deb
+Size: 80484
+MD5sum: 1a39d90f6e63bc0fa082026d2fbb17c2
+SHA1: 988e40b2423baa3fff671b356143b5b73b67bb35
+SHA256: 151756280b14c3622edae1e09f5f1211628a9d5810e56569c1e34f8aa7d192e7
+Section: utils
+Priority: optional
+Description: Sovereign Markor-style Markdown Notebook, QuickNotes & Todo TUI
+ Markora is an ultra-lightweight, zero-dependency Markdown notebook,
+ task manager, and QuickNotes TUI designed for terminal power users.
+ Includes aliases: td, todo, mo.
+
+Package: sshm
+Version: 1.1.0
+Architecture: all
+Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
+Depends: bash (>= 4.0), openssh-client, fzf
+Filename: pool/main/sshm_1.1.0_all.deb
+Size: 5208
+MD5sum: 035765f183f5669e405d22bd19f80496
+SHA1: c6230cf2ee97e8fce39bff9a684192ba75767356
+SHA256: f5714247c9b9eacdbfd972fc8ff59fe07dd0a70bbcb62213b6c146071dcec7a4
+Section: utils
+Priority: optional
+Description: Interactive SSH Fuzzy Manager with Live Metadata Preview
+ sshm is a lightweight CLI utility that transforms your OpenSSH ~/.ssh/config
+ into a searchable, interactive fuzzy selector using fzf with real-time metadata
+ preview via ssh -G.
+
