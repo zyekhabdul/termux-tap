@@ -1,3 +1,18 @@
+Package: agy-guard
+Version: 3.0.0
+Architecture: all
+Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
+Depends: python3 (>= 3.8)
+Filename: pool/main/agy-guard_3.0.0_all.deb
+Size: 14404
+MD5sum: 7ff54e6ea9dd454957f92fa95baa409e
+SHA1: 90a490dcbd76f6594c0e9e9115ebfee97d5e596c
+SHA256: c40d98a5aac0c6d8faf079a69c384b3b630f1697fe296919dd10ff5b3cbedee0
+Section: utils
+Priority: optional
+Description: Deterministic AI Agent Governance, AST Blast-Radius Scanner & Verification Harness
+ Enterprise governance and integrity verification tool for AI coding agents.
+
 Package: agy-quota
 Version: 1.2.0
 Architecture: all
@@ -49,4 +64,21 @@ Description: Interactive SSH Fuzzy Manager with Live Metadata Preview
  sshm is a lightweight CLI utility that transforms your OpenSSH ~/.ssh/config
  into a searchable, interactive fuzzy selector using fzf with real-time metadata
  preview via ssh -G.
+
+Package: vol3-suite
+Version: 2.0.0
+Architecture: all
+Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
+Depends: python3 (>= 3.8)
+Filename: pool/main/vol3-suite_2.0.0_all.deb
+Size: 59188
+MD5sum: c188df10a40d5613c2b9f566f9783862
+SHA1: 19c07197728f7e707021ecbc2781b4fb8c507175
+SHA256: 73010e14a632c532ae1d04c0668ff4d7aa332840afc38dd54cf92fcc8e7bf99d
+Section: utils
+Priority: optional
+Description: Unified Memory Forensics, eBPF Rootkit Detection, and AI-Driven Incident Triage Suite
+ Lightweight, modular memory forensics & incident response CLI with eBPF detection
+ and automated triage capabilities.
+ Includes aliases: vol-ai-triage, ebpf-detector.
 

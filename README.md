@@ -9,6 +9,8 @@ Official APT repository for Termux on Android, providing native `pkg install` pa
 | `sshm` | Fast interactive SSH fuzzy manager with live metadata preview & port-forwarding | `pkg install sshm` |
 | `agy-quota` | Multi-account token, quota & tier monitor TUI for Google Antigravity | `pkg install agy-quota` |
 | `markora` | Sovereign Markor-style markdown notebook, quicknotes & todo TUI | `pkg install markora` |
+| `vol3-suite` | Unified Memory Forensics, eBPF Rootkit Detection, and AI-Driven Incident Triage Suite | `pkg install vol3-suite` |
+| `agy-guard` | Deterministic AI Agent Governance, AST Blast-Radius Scanner & Verification Harness | `pkg install agy-guard` |
 
 ## Quick Setup (1-Line Command)
 
@@ -26,6 +28,8 @@ Once added, install any package using official `pkg install`:
 pkg install sshm
 pkg install agy-quota
 pkg install markora
+pkg install vol3-suite
+pkg install agy-guard
 ```
 
 ## Updating
