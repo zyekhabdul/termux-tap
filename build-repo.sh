@@ -9,12 +9,8 @@ DISTS_DIR="$APT_DIR/dists/stable"
 mkdir -p "$POOL_DIR"
 mkdir -p "$DISTS_DIR/main/binary-all"
 
-# Copy deb packages
-cp -v /home/aomiqaza/Projects/sshm/packaging/debian/sshm_*.deb "$POOL_DIR/"
-cp -v /home/aomiqaza/Projects/agy-quota/packaging/debian/agy-quota_*.deb "$POOL_DIR/"
-cp -v /home/aomiqaza/Projects/markora/packaging/debian/markora_*.deb "$POOL_DIR/"
-cp -v /home/aomiqaza/Projects/volatility3-cyber-suite/packaging/debian/vol3-suite_*.deb "$POOL_DIR/"
-cp -v /home/aomiqaza/Projects/agy-guard/packaging/debian/agy-guard_*.deb "$POOL_DIR/"
+# Build Termux native deb packages (with /data/data/com.termux/files/usr prefix)
+"$REPO_ROOT/build-termux-debs.sh"
 
 # Generate Packages file relative to apt/
 cd "$APT_DIR"
