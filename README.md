@@ -11,6 +11,7 @@ Official APT repository for Termux on Android, providing native `pkg install` pa
 | `markora` | Sovereign Markor-style markdown notebook, quicknotes & todo TUI | `pkg install markora` |
 | `vol3-suite` | Unified Memory Forensics, eBPF Rootkit Detection, and AI-Driven Incident Triage Suite | `pkg install vol3-suite` |
 | `agy-guard` | Deterministic AI Agent Governance, AST Blast-Radius Scanner & Verification Harness | `pkg install agy-guard` |
+| `gamectl` | Sovereign TUI Game Manager & Launcher for Linux (Zero-Bloat) | `pkg install gamectl` |
 
 ## Quick Setup (1-Line Command)
 

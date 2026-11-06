@@ -4,10 +4,10 @@ Architecture: all
 Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
 Depends: python
 Filename: pool/main/agy-guard_3.0.1_all.deb
-Size: 14652
-MD5sum: fb868fd1f083f2f5f3d1a06dea6b7a02
-SHA1: eac9e5972c3d201e8178a21256ac14a4d6919263
-SHA256: 8627df196e4beea80f2e195a74ecad80b6091bd05824662e30b27add965105a1
+Size: 14656
+MD5sum: 2da83eaf9b3d4787f5f209cb788488e4
+SHA1: 29c2d59f49fdabef221a453c74485206260a6f6e
+SHA256: 35f9be5f08eb97ca26a5e4aa5d14e72813b08d26d1427c325f5fd9c05f5d2161
 Section: utils
 Priority: optional
 Description: Deterministic AI Agent Governance, AST Blast-Radius Scanner & Verification Harness
@@ -18,13 +18,27 @@ Architecture: all
 Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
 Depends: python
 Filename: pool/main/agy-quota_1.2.1_all.deb
-Size: 15100
-MD5sum: 9af4846a5be2d16355c1e2083a94fcde
-SHA1: 2d4a65cec238270d6059b2d874efcbc44c19b383
-SHA256: 8f106cba6eb47bb52bff7e20aafb8945d7f032350f659989c468bc449ba4ec1a
+Size: 40288
+MD5sum: 5df9079cbca40fc181254c877ef3c5e4
+SHA1: 02764a97c9f6d9f1a759a76a33dc9eca86c5574b
+SHA256: 9c945ed3811fc643bc335c65b104a91dde26a570e3b01e91d1606c0f7386e80c
 Section: utils
 Priority: optional
 Description: Antigravity Multi-Account Token & Quota Bulk Checker
+
+Package: gamectl
+Version: 1.2.0
+Architecture: all
+Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
+Depends: bash, curl, file, fzf, jq, openssh, python, rsync, unzip
+Filename: pool/main/gamectl_1.2.0_all.deb
+Size: 52636
+MD5sum: 24ed64387050106cb96055da4f4559da
+SHA1: 8b9679adf06d3711d0d59386ca91579aece48f90
+SHA256: 37eb4d1ccd1489015e1e2559a2b66bede82872dfbb9bf705485ae344d478f176
+Section: utils
+Priority: optional
+Description: Sovereign TUI Game Manager & Launcher for Linux (Zero-Bloat)
 
 Package: markora
 Version: 1.0.0
@@ -32,10 +46,10 @@ Architecture: all
 Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
 Depends: python
 Filename: pool/main/markora_1.0.0_all.deb
-Size: 80528
-MD5sum: 184392caf75e29f58e8dbc291eb78c66
-SHA1: d81f05bdac61eedb3690a3af0b4b9f88770fe249
-SHA256: 8081216d32b267634c92aeba53e692f9c1188a11c5fec11889c50fcc9014a5b0
+Size: 84872
+MD5sum: ead61fddba796ec60af93605fcd69062
+SHA1: ce808544917b58ca9a0e2a493ac78774f41fa9d4
+SHA256: 3354ef9f72be48be8770158e5b9c28fb9b7d2d20a0b9a8dc3874f75e5570efb3
 Section: utils
 Priority: optional
 Description: Sovereign Markor-style Markdown Notebook, QuickNotes & Todo TUI
@@ -46,10 +60,10 @@ Architecture: all
 Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
 Depends: bash, openssh, fzf
 Filename: pool/main/sshm_1.1.0_all.deb
-Size: 5104
-MD5sum: 5c6f6a3a00f5e16481b902a58f82cdb4
-SHA1: 7d8b0dbdfc1c769565814e909c3b01f0461c08a7
-SHA256: 2452de6090281d1ff72abfa7ac0a2c82b1e160f9200f08d84a0557c1a792efc5
+Size: 5148
+MD5sum: 8992d0ff022cae2c4d401bf67633b696
+SHA1: eb4ffad0e044bda2bd36ca152ece822e2750da2b
+SHA256: 3b73746c5cfc7f74f5fe54fbcdaf37ec47356928ab859a61c1fdb34bd6934959
 Section: utils
 Priority: optional
 Description: Interactive SSH Fuzzy Manager with Live Metadata Preview
@@ -60,10 +74,10 @@ Architecture: all
 Maintainer: zyekhabdul <zyekhabdulqadirjailani@gmail.com>
 Depends: python
 Filename: pool/main/vol3-suite_2.0.0_all.deb
-Size: 59472
-MD5sum: fdaa71b0b5094e86fc799bfc8907b730
-SHA1: b1044e734679a3140aeb25ad422cd6ce4f52fb79
-SHA256: 4dd150442f74c94f0b191b68aa6a92662dc0492f3738c04f6be375f5dda4a69a
+Size: 59464
+MD5sum: 5edc391d8e09a2e932ee9f0d8cc98686
+SHA1: 7891845679d3ffa2613aa3cba65817df191603c3
+SHA256: 6fab36cdfd2d93b6d2012906a02deb409e778b69c65009b40346521283127ea6
 Section: utils
 Priority: optional
 Description: Unified Memory Forensics, eBPF Rootkit Detection, and AI-Driven Incident Triage Suite

@@ -125,6 +125,25 @@ EOF
     cp /home/aomiqaza/Projects/agy-guard/LICENSE "$prefix/share/doc/agy-guard/copyright"
 }
 
+setup_gamectl() {
+    local pkg_dir="$1"
+    local prefix="$2"
+    sed 's|#!/usr/bin/env bash|#!/data/data/com.termux/files/usr/bin/bash|' \
+        /home/aomiqaza/Projects/gamectl/bin/gamectl > "$prefix/bin/gamectl"
+    chmod 755 "$prefix/bin/gamectl"
+    ln -sf gamectl "$prefix/bin/game"
+
+    mkdir -p "$prefix/share/bash-completion/completions"
+    cp /home/aomiqaza/Projects/gamectl/completions/gamectl.bash "$prefix/share/bash-completion/completions/gamectl"
+    ln -sf gamectl "$prefix/share/bash-completion/completions/game"
+
+    mkdir -p "$prefix/share/applications"
+    cp /home/aomiqaza/Projects/gamectl/gamectl.desktop "$prefix/share/applications/gamectl.desktop"
+
+    cp /home/aomiqaza/Projects/gamectl/README.md "$prefix/share/doc/gamectl/"
+    cp /home/aomiqaza/Projects/gamectl/LICENSE "$prefix/share/doc/gamectl/copyright"
+}
+
 # Clean old deb files in pool
 rm -f "$POOL_DIR"/*.deb
 
@@ -133,6 +152,7 @@ build_pkg "agy-quota" "1.2.1" "Antigravity Multi-Account Token & Quota Bulk Chec
 build_pkg "markora" "1.0.0" "Sovereign Markor-style Markdown Notebook, QuickNotes & Todo TUI" "python" setup_markora
 build_pkg "vol3-suite" "2.0.0" "Unified Memory Forensics, eBPF Rootkit Detection, and AI-Driven Incident Triage Suite" "python" setup_vol3_suite
 build_pkg "agy-guard" "3.0.1" "Deterministic AI Agent Governance, AST Blast-Radius Scanner & Verification Harness" "python" setup_agy_guard
+build_pkg "gamectl" "1.2.0" "Sovereign TUI Game Manager & Launcher for Linux (Zero-Bloat)" "bash, curl, file, fzf, jq, openssh, python, rsync, unzip" setup_gamectl
 
 rm -rf "$BUILD_TMP"
-echo "==> All 5 Termux native deb packages built successfully!"
+echo "==> All 6 Termux native deb packages built successfully!"
